@@ -1,0 +1,13 @@
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\bin\Debug\netcoreapp3.1\LamdaExpression.exe
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\bin\Debug\netcoreapp3.1\LamdaExpression.deps.json
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\bin\Debug\netcoreapp3.1\LamdaExpression.runtimeconfig.json
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\bin\Debug\netcoreapp3.1\LamdaExpression.runtimeconfig.dev.json
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\bin\Debug\netcoreapp3.1\LamdaExpression.dll
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\bin\Debug\netcoreapp3.1\LamdaExpression.pdb
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\obj\Debug\netcoreapp3.1\LamdaExpression.csprojAssemblyReference.cache
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\obj\Debug\netcoreapp3.1\LamdaExpression.AssemblyInfoInputs.cache
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\obj\Debug\netcoreapp3.1\LamdaExpression.AssemblyInfo.cs
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\obj\Debug\netcoreapp3.1\LamdaExpression.csproj.CoreCompileInputs.cache
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\obj\Debug\netcoreapp3.1\LamdaExpression.dll
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\obj\Debug\netcoreapp3.1\LamdaExpression.pdb
+C:\Users\Dell\DotNetProjects\LamdaExpression\LamdaExpression\obj\Debug\netcoreapp3.1\LamdaExpression.genruntimeconfig.cache
