@@ -13,6 +13,7 @@ namespace LamdaExpression
             Retrieving_TopTwoRecord_ForAgels_LessThanSixty(listPersonInCity);
             ChekingForTeenagerPerson(listPersonInCity);
             RetrievingAverageAge(listPersonInCity);
+            CheckForSpecificName(listPersonInCity);
         }
         private static void AddRecords(List<Person> listPersonInCity)
         {
@@ -47,6 +48,14 @@ namespace LamdaExpression
             double average = listPersonInCity.Average(e => e.Age);
             Console.WriteLine("The average is : " +average);
         }
+        private static void CheckForSpecificName(List<Person> listPersonInCity)
+        {
+            if(listPersonInCity.Exists(e=>e.Name=="Elan"))
+            {
+                Console.WriteLine("Yes the person is exists in the list");
+            }
+        }
+
 
 
     }
