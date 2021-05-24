@@ -15,6 +15,7 @@ namespace LamdaExpression
             RetrievingAverageAge(listPersonInCity);
             CheckForSpecificName(listPersonInCity);
             SkipRecordForAgeLsThen60(listPersonInCity);
+            RemoveSpecificName(listPersonInCity);
         }
         private static void AddRecords(List<Person> listPersonInCity)
         {
@@ -64,6 +65,13 @@ namespace LamdaExpression
                 Console.WriteLine("Name :" + person.Name + "\t\tAge: " + person.Age);
             }
         }
+        private static void RemoveSpecificName(List<Person> listPersonInCity)
+        {
+            int count = listPersonInCity.RemoveAll(e => e.Name == "Mac");
+            Console.WriteLine($"Deleted the record for {count} times");
+            
 
+            
+        }
     }
 }
