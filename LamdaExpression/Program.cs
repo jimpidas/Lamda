@@ -14,6 +14,7 @@ namespace LamdaExpression
             ChekingForTeenagerPerson(listPersonInCity);
             RetrievingAverageAge(listPersonInCity);
             CheckForSpecificName(listPersonInCity);
+            SkipRecordForAgeLsThen60(listPersonInCity);
         }
         private static void AddRecords(List<Person> listPersonInCity)
         {
@@ -56,7 +57,13 @@ namespace LamdaExpression
             }
         }
 
-
+        private static void SkipRecordForAgeLsThen60(List<Person> listPersonInCity)
+        {
+            foreach (Person person in listPersonInCity.SkipWhile(e => (e.Age < 60)).ToList())
+            {
+                Console.WriteLine("Name :" + person.Name + "\t\tAge: " + person.Age);
+            }
+        }
 
     }
 }
